@@ -9,6 +9,8 @@ A simple utility to help inject, update, and manage YAML-formatted metadata head
 
 **Note:** This is a hobby project built to be as lightweight as possible. It has **zero external dependencies** and runs entirely on the Python standard library.
 
+The codebase of the too is inside the `auto_code_signature` folder.
+
 ## Features
 
 * **No Dependencies**: Runs out-of-the-box with any standard Python installation.
@@ -27,8 +29,7 @@ A simple utility to help inject, update, and manage YAML-formatted metadata head
 
 ```bash
 git clone https://github.com/medlav/codebase-signer.git
-cd codebase-signer
-
+cd auto_code_signature
 ```
 
 2. **Run it**:
