@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "auto_code_signature"
+dynamic = ["version"]
+description = "A tool to automatically inject license headers into source code."
+authors = [{ name = "Your Name", email = "your.email@example.com" }]
+dependencies = []                                                                # Add any external libraries here (e.g., colorama)
+requires-python = ">=3.13.5"
+
+[project.scripts]
+sign-code = "auto_code_signature.main:main"
+
+[tool.setuptools]
+packages = ["auto_code_signature"]
+
+
+[tool.setuptools.dynamic]
+version = { attr = "auto_code_signature.__version__" }

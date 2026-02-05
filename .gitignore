@@ -1,0 +1,11 @@
+.venv/
+__pychache__
+*.pyc
+
+exe/
+
+**/__pychache__/
+
+
+
+execonfig.json
