@@ -38,5 +38,3 @@ VSVersionInfo(
   ]
 )
 
-
-rmdir /s /q "C:\Users\nosle\Documents\Programming\Python\pypackages\auto_signature_pack\.git"
